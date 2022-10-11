@@ -28,7 +28,6 @@
 .bankoffer img{
   min-height:80px;
   max-height: 116px;
-  min-width: 900px;
   width: 100%;
   object-fit: contain;
   object-position: center;
@@ -52,7 +51,7 @@
   flex: 1;
 }
 .topDealsPosters div img{
-  width: 300px;
+  width: 100%;
   flex-grow: inherit;
   object-fit: contain;
   object-position: center;
