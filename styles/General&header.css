@@ -6,10 +6,6 @@ body{
   overflow-x: hidden;
   margin-bottom: 4px;
 }
-section{
-  display: flex;
-  flex-direction: column;
-}
 .header{
   display: flex;
   flex-direction: row;
