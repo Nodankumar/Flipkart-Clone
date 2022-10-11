@@ -71,6 +71,7 @@
   display: flex;
   z-index: 5;
   position: relative;
+  overflow-x:auto;
 }
 .gadgets .gadget_details p{
   margin: 0px;
@@ -86,8 +87,9 @@
   height: 201.6px;
 }
 .gadget_details .img img{
-  width: 180px;
-  padding: 20% 2%;
+  box-sizing:border-box;/*newly added*/
+  width: 100%;
+  height: auto;
   padding-bottom: 16%;
   object-fit: contain;
   object-position: center;
