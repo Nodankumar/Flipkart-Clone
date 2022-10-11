@@ -1,0 +1,125 @@
+.BeautyFoodToys .view_page h3{
+  margin: 0px;
+}
+.BeautyFoodToys{
+  display: grid;
+  grid-template-columns: 230px 1fr 10px;
+  margin-top: 6px;
+  margin-left: 8px;
+  place-items:inherit;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+.BeautyFoodToys .view_page{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  align-items: center;
+  position: relative;
+  z-index: 6;
+}
+.BeautyFoodToys .view_page:hover .left_click{
+  opacity: 1;
+}
+.BeautyFoodToys .view_page h3{
+  width: 130px;
+  padding-top: 80px;
+  line-height: 38px;
+  padding-bottom: 12px;
+  font-size: 24px;
+}
+.BeautyFoodToys .view_page .view_button{
+  background-color: rgb(19, 130, 221);
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.BeautyFoodToys .view_page img{
+  width: 229px;
+  object-fit: contain;
+  object-position: center;
+  padding-top: 18px;
+}
+.BeautyFoodToys .view_page .left_click{
+  position: absolute;
+  left: 230px;
+  top:38%;
+  bottom:38%;
+  height: 1fr;
+  width: 35px;
+  border: none;
+  color:black;
+  background-color: rgb(247, 242, 242);
+  font-weight: bolder;
+  font-size: large;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  cursor: pointer;
+  opacity:0;
+}
+.BeautyFoodToys .view_page .left_click:active{
+  cursor: pointer;
+  background-color: white;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  opacity: 1;
+}
+.gadgets{
+  display: flex;
+  z-index: 5;
+  position: relative;
+}
+.gadgets .gadget_details p{
+  margin: 0px;
+}
+
+.gadgets .gadget_details{
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  align-items: center;
+  justify-content: center;
+}
+.gadget_details .img{
+  height: 201.6px;
+}
+.gadget_details .img img{
+  width: 180px;
+  height: 160px;
+  padding: 20% 2%;
+  padding-bottom: 16%;
+  object-fit: contain;
+  object-position: center;
+  transition: padding 0.15s, padding-bottom 0.15s;
+}
+.gadget_details .img img:hover{
+  padding: 19% 1%;
+  padding-bottom: 15%;
+  cursor: pointer;
+}
+.gadget_details p{
+  line-height: 26px;
+  font-size: 17px;
+}
+.right_click{
+  position: absolute;
+  right: 0;
+  top:38%;
+  bottom:38%;
+  height: 1fr;
+  width: 35px;
+  border: none;
+  color:black;
+  background-color: rgb(247, 242, 242);
+  font-weight: bolder;
+  font-size: large;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  cursor: pointer;
+  z-index: 6;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+

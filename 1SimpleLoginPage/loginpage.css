@@ -1,0 +1,73 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background: linear-gradient(rgb(64, 163, 233),white, white, rgb(222, 106, 224));
+  background-size: cover;
+  z-index: 0;
+}
+.loginbg{
+  position: relative;
+  border-radius: 4px;
+
+}
+.loginbg img{
+  width: 400px;
+  object-fit: cover;
+  object-position: center;
+  z-index: 1;
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+}
+.loginCredentials{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  display: flex;
+  min-width: 200px;
+  padding: 16px 6px ;
+  flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  row-gap: 15px;
+  background-image: linear-gradient(rgba(39, 173, 240, 0.868), rgb(168, 203, 230),rgb(233, 165, 221), rgb(199, 65, 233) );
+  align-items: center;
+  z-index: 2;
+  opacity: 0.8;
+}
+.loginCredentials input{
+  font-size: small;
+  font-weight: bold;
+  border-radius: 2px;
+  border-style: solid;
+  border-color: gray;
+  transition: padding-left 0.15s, padding-right 0.15s;;
+}
+.loginCredentials input:hover{
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.login_button{
+  width: max-content;
+  border-radius: 4px;
+  border-color: gray;
+  border-style: solid;
+  cursor: pointer;
+  color: rgb(75, 74, 74);
+  transition: padding-left 0.15s, padding-right 0.15s;
+}
+.login_button:hover{
+  color:white;
+  font-weight: 500;
+  background-color: rgb(12, 102, 213);
+}
+.login_button:active{
+  color: white;
+  background-color: rgb(63, 62, 62);
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
