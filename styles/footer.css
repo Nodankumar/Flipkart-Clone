@@ -63,7 +63,7 @@ margin-top: 6px;
   margin-right: 20px;
   height: 140px;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-device-width: 400px){
  .footer{
    display:none;
  }
