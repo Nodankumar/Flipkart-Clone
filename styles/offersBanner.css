@@ -2,7 +2,7 @@
   padding-top: 16px;
   position: relative;
   margin-left: 8px;
-  margin-right: 8px;
+  margin-right: 6px;
 }
 .offerBanner .scroll img{
   width: 1fr;
@@ -23,7 +23,7 @@
   grid-template-columns: 1fr;
   margin-top: 6px;
   margin-left: 8px;
-  margin-right: 8px;
+  margin-right: 6px;
   margin-bottom:6px;
 }
 .bankoffer img{
@@ -49,6 +49,7 @@
 .topDealsPosters div{
   display: flex;
   flex: 1;
+  column-gap:2px;
 }
 .topDealsPosters div img{
   width: 100%;
