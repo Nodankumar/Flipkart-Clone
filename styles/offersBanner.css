@@ -52,6 +52,7 @@
 }
 .topDealsPosters div img{
   width: 100%;
+  min-width:150px;
   flex-grow: inherit;
   object-fit: contain;
   object-position: center;
