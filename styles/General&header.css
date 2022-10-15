@@ -3,7 +3,7 @@ body{
   padding: 0px;
   font-family: sans-serif;
   height: max-content;
-  overflow: hidden;
+  overflow-x:hidden;
   margin-bottom: 4px;
 }
 .header{
