@@ -63,3 +63,11 @@ margin-top: 6px;
   margin-right: 20px;
   height: 140px;
 }
+@media screen and (max-width: 400px){
+ .footer .Mailus_sec, .ROA{
+    display:none;
+ }
+ .footer .Social_sec{
+    border:none;
+ }
+}
