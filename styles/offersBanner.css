@@ -24,6 +24,7 @@
   margin-top: 6px;
   margin-left: 8px;
   margin-right: 8px;
+  margin-bottom:6px;
 }
 .bankoffer img{
   min-height:80px;
@@ -42,7 +43,6 @@
 .topDealsPosters{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 6px;
   margin-left: 6px;
   margin-right: 6px;
 }
