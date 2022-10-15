@@ -63,7 +63,7 @@ margin-top: 6px;
   margin-right: 20px;
   height: 140px;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 200px){
  .footer .Mailus_sec, .ROA{
     display:none;
  }
